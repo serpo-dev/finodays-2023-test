@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        4-е задание (валидация email и номера телефона) - команда Phoenix
+    </title>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+    <form>
+        <div class="field">
+            <label for="email">
+                Email
+            </label>
+            <input id="email" placeholder="Введите электронную почту" />
+            <div class="email errorMessage">Неверный формат электронной почты</div>
+        </div>
+        <div class="field">
+            <label for="phone">
+                Телефон
+            </label>
+            <input id="phone" placeholder="Введите телефон" />
+            <div class="phone errorMessage">
+                Неверный формат телефона
+            </div>
+        </div>
+        <input type="submit" value="Проверить" />
+        <div class="successMessage">
+            Успешно, все данные верны
+        </div>
+    </form>
+</body>
+
+</html>
